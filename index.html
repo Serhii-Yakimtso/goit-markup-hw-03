@@ -36,43 +36,45 @@
             <li class="nav-item">
               <a class="nav-link" href="/">studio</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link" href="">portfolio</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-link" href="">contacts</a>
             </li>
           </ul>
-        </nav>
 
-        <address class="nav-address">
-          <ul class="address-list">
-            <li class="address-item">
-              <a class="address-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="address-item">
-              <a class="address-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+          <address class="nav-address">
+            <ul class="address-list">
+              <li class="address-item">
+                <a class="address-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a class="address-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </nav>
       </div>
     </header>
 
     <main>
       <!-- section hero -->
       <section class="hero">
-        <h1 class="page-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">order service</button>
+        <div class="container">
+          <h1 class="page-title">Effective Solutions for Your Business</h1>
+          <button class="hero-btn" type="button">order service</button>
+        </div>
       </section>
 
       <!-- section feature -->
       <section class="feature section">
         <div class="container">
-          <h2 class="section-title">our features</h2>
+          <h2 class="section-title .visually-hidden">our features</h2>
 
           <ul class="feature-list">
             <li class="feature-item">
@@ -249,15 +251,11 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer-left">
-          <a class="footer-logo" href="/"
-            >Web<span class="logo">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing &#38; growth solutions.
-          </p>
-        </div>
+        <a class="footer-logo" href="/">Web<span class="logo">Studio</span></a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing &#38; growth solutions.
+        </p>
       </div>
     </footer>
   </body>
