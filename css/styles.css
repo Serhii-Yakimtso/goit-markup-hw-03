@@ -49,6 +49,11 @@ img {
 
 .visually-hidden {
   position: absolute;
+  top: -9999px;
+  left: -9999px;
+  visibility: hidden;
+
+  /* position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -58,7 +63,7 @@ img {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 /* ================HEADER================ */
@@ -68,6 +73,10 @@ img {
   padding-bottom: 24px; */
 
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+  display: flex;
 }
 
 .nav {
