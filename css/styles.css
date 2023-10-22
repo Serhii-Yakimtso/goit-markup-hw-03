@@ -47,7 +47,22 @@ img {
 
 /* ================HEADER================ */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+}
+
 .nav-logo {
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -63,6 +78,11 @@ img {
   color: #2e2f42;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-link {
   font-size: 16px;
   font-weight: 500;
@@ -76,6 +96,11 @@ img {
 
 address {
   font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-link {
