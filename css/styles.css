@@ -40,7 +40,9 @@ img {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -170,6 +172,11 @@ address {
 
 /* ================FEATURE================ */
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-title {
   font-size: 36px;
   font-weight: 700;
@@ -182,7 +189,18 @@ address {
   color: #2e2f42;
 }
 
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-item {
+  width: calc((100% - 24px * 3) / 4);
+}
+
 .feature-title {
+  margin-bottom: 8px;
+
   font-size: 20px;
   font-weight: 500;
 
