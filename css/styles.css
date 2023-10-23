@@ -101,12 +101,16 @@ img {
   gap: 40px;
 }
 
-.nav-item {
+/* .nav-item {
   padding-top: 24px;
   padding-bottom: 24px;
-}
+} */
 
 .nav-link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-size: 16px;
   font-weight: 500;
 
